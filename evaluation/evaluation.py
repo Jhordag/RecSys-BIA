@@ -106,7 +106,7 @@ def read_eval_ds():
     """
     Read the evaluation dataset.
     """
-    df = pd.read_csv("data/evaluation/eval_users.csv")
+    df = pd.read_csv("/content/RecSys-BIA/data/evaluation/eval_users.csv")
     df["gt_reclist"] = df["gt_reclist"].apply(eval)
     df["reclist"] = df["reclist"].apply(eval)
     
