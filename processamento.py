@@ -60,3 +60,4 @@ def concat_columns(row):
 df['features'] = df.apply(concat_columns, axis=1)
 df1 = df[['name','city','cate','stars','is_open','features','business_id']]
 df1.to_csv('/content/dataset/df_categories.csv', index=False)
+
