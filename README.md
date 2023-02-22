@@ -5,6 +5,7 @@ Grupo: Xurrasco
 Integrantes: Gabriel Jhordan e Pedro Augusto
 
 ## Resultados Embeddings de Texto
+Link dos Embeddings: https://drive.google.com/file/d/1U7HpDLWqdMi4UrcixE80p2X8K1TRMVDm/view?usp=share_link
 
 ```bash
 Avaliação de Embeddings
